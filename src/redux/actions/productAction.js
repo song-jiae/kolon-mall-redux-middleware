@@ -6,5 +6,5 @@ function getProducts(keyword){
     console.log(data);
     dispatch({type:"GET+PRODUCT", payload:{data}});
   };
-}``
+}
 export const productAction={getProducts}

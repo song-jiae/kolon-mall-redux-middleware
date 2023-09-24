@@ -7,4 +7,4 @@ function getProducts(keyword){
     dispatch({type:"GET+PRODUCT", payload:{data}});
   };
 }``
-export const productAction={getProducts}~~`
+export const productAction={getProducts}
